@@ -1,0 +1,10 @@
+[user]
+	name = Steven Abrams
+	email = steven.abrams86@gmail.com
+[core]
+	excludesfile = /Users/steveabrams/.gitignore_global
+[alias]
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
